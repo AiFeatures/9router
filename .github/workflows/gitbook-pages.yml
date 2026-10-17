@@ -14,7 +14,6 @@ concurrency:
 
 jobs:
   build-deploy:
-    if: github.repository_owner == 'decolua'
     runs-on: ubuntu-latest
     defaults:
       run:
